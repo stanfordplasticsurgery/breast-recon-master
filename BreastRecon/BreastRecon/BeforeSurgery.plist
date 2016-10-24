@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>type</key>
+	<string>menu</string>
+	<key>title</key>
+	<string>Before Surgery</string>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>document</string>
+			<key>title</key>
+			<string>Timing of Breast Reconstruction</string>
+			<key>data</key>
+			<string>overview_timing.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>document</string>
+			<key>title</key>
+			<string>Pre-operative Evaluation</string>
+			<key>data</key>
+			<string>overview_preopeval.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>document</string>
+			<key>title</key>
+			<string>Pre-operative Instructions</string>
+			<key>data</key>
+			<string>overview_preopinst.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>document</string>
+			<key>title</key>
+			<string>Medications to Avoid</string>
+			<key>data</key>
+			<string>medications_to_avoid.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>document</string>
+			<key>title</key>
+			<string>What to Expect After Mastectomy\nand Tissue Expander Placement</string>
+			<key>data</key>
+			<string>expect_tissueexpander.html</string>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>document</string>
+			<key>title</key>
+			<string>What to Expect After\nFree Flap Breast Reconstruction</string>
+			<key>data</key>
+			<string>expect_freeflap.html</string>
+		</dict>
+	</array>
+</dict>
+</plist>

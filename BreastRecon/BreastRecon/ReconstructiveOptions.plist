@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>type</key>
+	<string>menu</string>
+	<key>title</key>
+	<string>Reconstructive Options</string>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>menu</string>
+			<key>title</key>
+			<string>Tissue Expander/Implant</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Tissue Expander/Implant</string>
+					<key>data</key>
+					<string>overview_tissueexpander.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>menu</string>
+					<key>title</key>
+					<string>Tissue Expanders</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>title</key>
+							<string>Tissue Expanders</string>
+							<key>data</key>
+							<string>te_description.html</string>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Tissue Expansion Process</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<string>document</string>
+									<key>fullsize</key>
+									<string>te_process.html</string>
+									<key>thumbnail</key>
+									<string>document_thumbnail_icon.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Label_Breast_TE1_Chest wall after mastectomy</string>
+									<key>title</key>
+									<string>Chest Wall After Mastectomy</string>
+									<key>fullsize</key>
+									<string>03-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>03-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Label_Breast_TE2_Placement of tissue expander below pectoralis muscle</string>
+									<key>title</key>
+									<string>Placement of Tissue Expander Below Pectoralis Muscle</string>
+									<key>fullsize</key>
+									<string>04-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>04-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Breast_TE3_Expansion of tissue expander with saline.jpg</string>
+									<key>title</key>
+									<string>Expansion of Tissue Expander with Saline</string>
+									<key>fullsize</key>
+									<string>05-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>05-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>title</key>
+									<string>Exchange of Tissue Expander for Implant</string>
+									<key>fullsize</key>
+									<string>16-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>16-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>title</key>
+									<string>Completed Reconstruction</string>
+									<key>fullsize</key>
+									<string>09-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>09-tmb-tissueexpander.png</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Types</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<string>document</string>
+									<key>fullsize</key>
+									<string>te_types.html</string>
+									<key>thumbnail</key>
+									<string>document_thumbnail_icon.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>1_Single Chamber Tissue Expander</string>
+									<key>title</key>
+									<string>Single Chamber Tissue Expander</string>
+									<key>fullsize</key>
+									<string>02-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>02-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>2_Double Chamber Tissue Expander</string>
+									<key>title</key>
+									<string>Double Chamber Tissue Expander</string>
+									<key>fullsize</key>
+									<string>01-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>01-tmb-tissueexpander.png</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Acellular Dermal Matrix</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<string>document</string>
+									<key>fullsize</key>
+									<string>te_adm.html</string>
+									<key>thumbnail</key>
+									<string>document_thumbnail_icon.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Label_TE-ADMFrontView</string>
+									<key>title</key>
+									<string></string>
+									<key>fullsize</key>
+									<string>08-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>08-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Label_TE-ADMProfile</string>
+									<key>title</key>
+									<string></string>
+									<key>fullsize</key>
+									<string>07-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>07-tmb-tissueexpander.png</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>menu</string>
+					<key>title</key>
+					<string>Implants</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>title</key>
+							<string>Implants</string>
+							<key>data</key>
+							<string>te_implants_description.html</string>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Implant Placement</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<string>document</string>
+									<key>fullsize</key>
+									<string>te_implants_placement.html</string>
+									<key>thumbnail</key>
+									<string>document_thumbnail_icon.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Label_Augmentation-Subglandular augmentation with implant</string>
+									<key>title</key>
+									<string>Subglandular Augmentation with Implant</string>
+									<key>fullsize</key>
+									<string>01-augmentation.png</string>
+									<key>thumbnail</key>
+									<string>01-tmb-augmentation.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>Label_Augmentation-Submuscular augmentation with implant</string>
+									<key>title</key>
+									<string>Submuscular Augmentation with Implant</string>
+									<key>fullsize</key>
+									<string>02-augmentation.png</string>
+									<key>thumbnail</key>
+									<string>02-tmb-augmentation.png</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Saline vs Silicone</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<string>document</string>
+									<key>fullsize</key>
+									<string>te_implants_saline_silicone.html</string>
+									<key>thumbnail</key>
+									<string>document_thumbnail_icon.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>1_Saline versus Silicone Implant</string>
+									<key>title</key>
+									<string>Saline versus Silicone Implant</string>
+									<key>fullsize</key>
+									<string>12-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>12-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>2_Textured versus Smooth Implant</string>
+									<key>title</key>
+									<string>Textured versus Smooth Implant</string>
+									<key>fullsize</key>
+									<string>13-tissueexpander</string>
+									<key>thumbnail</key>
+									<string>13-tmb-tissueexpander</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>5_Implants come in various projections, Low, Moderate and High Profile Implants</string>
+									<key>title</key>
+									<string>Implant Projections</string>
+									<key>fullsize</key>
+									<string>15-tissueexpander</string>
+									<key>thumbnail</key>
+									<string>15-tmb-tissueexpander</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Round vs Anatomical</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>type</key>
+									<string>document</string>
+									<key>fullsize</key>
+									<string>te_implants_round_anatomical.html</string>
+									<key>thumbnail</key>
+									<string>document_thumbnail_icon.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>3_Saline Round versus Saline Shaped Implant</string>
+									<key>title</key>
+									<string>Saline Round versus Saline Shaped Implant</string>
+									<key>fullsize</key>
+									<string>14-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>14-tmb-tissueexpander.png</string>
+								</dict>
+								<dict>
+									<key>original title</key>
+									<string>4_Silicone Round versus Silicone Shaped Implant</string>
+									<key>title</key>
+									<string>Silicone Round versus Silicone Shaped Implant</string>
+									<key>fullsize</key>
+									<string>11-tissueexpander.png</string>
+									<key>thumbnail</key>
+									<string>11-tmb-tissueexpander.png</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>title</key>
+							<string>FDA Approved Implants</string>
+							<key>data</key>
+							<string>te_implant_fda_approved.html</string>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>title</key>
+							<string>Common Complications</string>
+							<key>data</key>
+							<string>te_implants_complications.html</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Combination with Autologous</string>
+					<key>data</key>
+					<string>te_combination_with_autologous.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>External Prosthesis</string>
+					<key>data</key>
+					<string>te_external_prosthesis.html</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>gallery</string>
+			<key>title</key>
+			<string>Latissimus Flap</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>fullsize</key>
+					<string>overview_latissimusflap.html</string>
+					<key>thumbnail</key>
+					<string>document_thumbnail_icon.png</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Label_Latissimus02_Latissimus flap design with skin island</string>
+					<key>title</key>
+					<string>Latissimus flap design with skin island</string>
+					<key>fullsize</key>
+					<string>01-lastissimus</string>
+					<key>thumbnail</key>
+					<string>01-tmb-lastissimus</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Label_Latissimus03_After flap rotation and placement of prosthesis</string>
+					<key>title</key>
+					<string>After Flap Rotation and Placement of Prosthesis</string>
+					<key>fullsize</key>
+					<string>04-lastissimus</string>
+					<key>thumbnail</key>
+					<string>04-tmb-lastissimus</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Latissimus05_Completed latissimus-implant reconstruction after nipple reconstruction</string>
+					<key>title</key>
+					<string>Completed Reconstruction with Nipple</string>
+					<key>fullsize</key>
+					<string>05-lastissimus</string>
+					<key>thumbnail</key>
+					<string>05-tmb-lastissimus</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Latissimus04_Donor site scar</string>
+					<key>title</key>
+					<string>Donor Site Scar</string>
+					<key>fullsize</key>
+					<string>06-lastissimus</string>
+					<key>thumbnail</key>
+					<string>06-tmb-lastissimus</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>menu</string>
+			<key>title</key>
+			<string>Autologous Flaps</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Autologous Flaps</string>
+					<key>data</key>
+					<string>overview_autologoutflaps.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Advantages</string>
+					<key>data</key>
+					<string>overview_autologousflaps_advantages.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Disadvantages</string>
+					<key>data</key>
+					<string>overview_autologousflaps_disadvantages.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Pedicle TRAM</string>
+					<key>details</key>
+					<string>The TRAM flap uses the skin, adipose tissue of the abdomen, and rectus abdominis muscle to recreate the breast. This flap can be transferred as a free flap or a pedicled flap. When the TRAM flap is used as a free flap, the deep inferior epigastric artery/vein are separated from their origin (the external iliac artery/vein) and reconnected to blood vessels in the chest with the help of an operating microscope. When used as a pedicled flap, the deep inferior epigastric artery/vein are cut and the flap is rotated into the chest while still connected to the superior epigastric artery and vein. Since the flap is still connected to the superior epigastric artery and vein, the operating microscope is not needed.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_01_Breast defect after skin sparing mastectomy</string>
+							<key>title</key>
+							<string>Breast Defect After Skin Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_Pedicle TRAM1_02</string>
+							<key>title</key>
+							<string>Pedicle TRAM Flap</string>
+							<key>fullsize</key>
+							<string>01-autologous-pedicledflap</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-pedicledflap</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_Pedicle TRAM2_03</string>
+							<key>title</key>
+							<string>Pedicle TRAM Flap</string>
+							<key>fullsize</key>
+							<string>02-autologous-pedicledflap</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-pedicledflap</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Free TRAM</string>
+					<key>details</key>
+					<string>The TRAM flap uses the skin, adipose tissue of the abdomen, and rectus abdominis muscle to recreate the breast. This flap can be transferred as a free flap or a pedicled flap. When the TRAM flap is used as a free flap, the deep inferior epigastric artery/vein are separated from their origin (the external iliac artery/vein) and reconnected to blood vessels in the chest with the help of an operating microscope. When used as a pedicled flap, the deep inferior epigastric artery/vein are cut and the flap is rotated into the chest while still connected to the superior epigastric artery and vein. Since the flap is still connected to the superior epigastric artery and vein, the operating microscope is not needed.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_01_Breast defect after skin sparing mastectomy</string>
+							<key>title</key>
+							<string>Breast Defect After Skin Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_02_Abdominal flap skin markings</string>
+							<key>title</key>
+							<string>Abdominal Flap Skin Markings</string>
+							<key>fullsize</key>
+							<string>02-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_Free TRAM_02</string>
+							<key>title</key>
+							<string>Free TRAM Flap</string>
+							<key>fullsize</key>
+							<string>03-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>03-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_03_ Abdominal free flap inset</string>
+							<key>title</key>
+							<string>Abdominal Free Flap Inset</string>
+							<key>fullsize</key>
+							<string>04-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>04-tmb-autologous-tram</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>MS-TRAM</string>
+					<key>details</key>
+					<string>The MS-TRAM flap uses the skin, adipose tissue of the abdomen, and part of the rectus abdominis muscle to recreate the breast.  This flap was developed to reduce the amount of muscle taken from the abdomen during breast reconstruction.  This flap is harvested as a free flap based on the deep inferior epigastric artery/vein.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_01_Breast defect after skin sparing mastectomy</string>
+							<key>title</key>
+							<string>Breast Defect After Skin Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_02_Abdominal flap skin markings</string>
+							<key>title</key>
+							<string>Abdominal Flap Skin Markings</string>
+							<key>fullsize</key>
+							<string>02-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_MS TRAM_02</string>
+							<key>title</key>
+							<string>MS TRAM Flap</string>
+							<key>fullsize</key>
+							<string>01-autologous-mstram</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-mstram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_03_ Abdominal free flap inset</string>
+							<key>title</key>
+							<string> Abdominal Free Flap Inset</string>
+							<key>fullsize</key>
+							<string>04-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>04-tmb-autologous-tram</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>DIEP</string>
+					<key>details</key>
+					<string>The DIEP flap uses the skin and adipose tissue of the abdomen to recreate the breast while completely sparing the rectus abdominis muscles.  The muscle does not need to be harvested because small blood vessels that pierce the muscle to supply the skin and fat (perforators) provide enough perfusion.  Like the MS-TRAM flap, this flap is harvested as a free flap.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_01_Breast defect after skin sparing mastectomy</string>
+							<key>title</key>
+							<string>Breast Defect After Skin Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_02_Abdominal flap skin markings</string>
+							<key>title</key>
+							<string>Abdominal Flap Skin Markings</string>
+							<key>fullsize</key>
+							<string>02-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_DIEP_02</string>
+							<key>title</key>
+							<string>DIEP Flap</string>
+							<key>fullsize</key>
+							<string>01-autologous-diep</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-diep</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_03_ Abdominal free flap inset</string>
+							<key>title</key>
+							<string>Abdominal Free Flap Inset</string>
+							<key>fullsize</key>
+							<string>04-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>04-tmb-autologous-tram</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>SIEA</string>
+					<key>details</key>
+					<string>The SIEA flap, like the DIEP flap, uses skin and adipose tissue from the abdomen to recreate the breast while completely sparing the rectus abdominis muscle.  The blood supply to this flap comes from an artery and vein that are located closer to the skin surface than the DIEP flap.  Variations in anatomy and small diameter of vessels limit the use of this flap.  Only approximately 10% of patients have a blood vessel present that is of sufficient size to support this flap.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_01_Breast defect after skin sparing mastectomy</string>
+							<key>title</key>
+							<string>Breast Defect After Skin Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Autologous_02_Abdominal flap skin markings</string>
+							<key>title</key>
+							<string>Abdominal Flap Skin Markings</string>
+							<key>fullsize</key>
+							<string>02-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-tram</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_SIEA_02</string>
+							<key>title</key>
+							<string>SIEA Flap</string>
+							<key>fullsize</key>
+							<string>01-autologous-seia</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-seia</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Autologous_03_ Abdominal free flap inset</string>
+							<key>title</key>
+							<string>Abdominal Free Flap Inset</string>
+							<key>fullsize</key>
+							<string>04-autologous-tram</string>
+							<key>thumbnail</key>
+							<string>04-tmb-autologous-tram</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>TUG</string>
+					<key>details</key>
+					<string>The TUG flap uses skin, adipose tissue, and the gracilis muscle (a muscle of the inner thigh) to recreate the breast.  The tissue is supplied by the medial femoral circumflex artery/vein, and is transferred as a free flap.  This flap is ideal for women who do not have sufficient abdominal tissue for transfer, or for women who prefer no scar along their lower abdomen.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Transverse upper gracilis flap_01_Skin markings</string>
+							<key>title</key>
+							<string>Skin Markings</string>
+							<key>fullsize</key>
+							<string>01-autologous-tug</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-tug</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Transverse upper gracilis flap_02_Flap elevation</string>
+							<key>title</key>
+							<string>Flap Elevation</string>
+							<key>fullsize</key>
+							<string>02-autologous-tug</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-tug</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Transverse upper gracilis flap_03_Flap inset &amp; donor site scar</string>
+							<key>title</key>
+							<string>Flap Inset &amp; Donor Site Scar</string>
+							<key>fullsize</key>
+							<string>03-autologous-tug</string>
+							<key>thumbnail</key>
+							<string>03-tmb-autologous-tug</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>SGAP</string>
+					<key>details</key>
+					<string>The SGAP or IGAP flap uses skin and adipose tissue from the buttocks to recreate the breast.  Similar to the DIEP flap, no muscle is taken because the tissue receives its blood flow from small blood vessels that pierce the muscle (perforators).  The flap is harvested as a free flap and can be designed by the surgeon to receive blood flow from either the superior, or inferior gluteal artery perforators.  Like the TUG flap, this flap is ideal for women who do not have sufficient abdominal tissue for transfer, or for women who prefer no scar along their lower abdomen.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>SGAP_01_Flap design &amp; skin markings</string>
+							<key>title</key>
+							<string>Skin Markings</string>
+							<key>fullsize</key>
+							<string>01-autologous-sgap</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-sgap</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_SGAP_02_Flap elevation</string>
+							<key>title</key>
+							<string>Flap Elevation</string>
+							<key>fullsize</key>
+							<string>02-autologous-sgap</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-sgap</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>SGAP_03_Donor site scar</string>
+							<key>title</key>
+							<string>Donor Site Scar</string>
+							<key>fullsize</key>
+							<string>03-autologous-sgap</string>
+							<key>thumbnail</key>
+							<string>03-tmb-autologous-sgap</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>IGAP</string>
+					<key>details</key>
+					<string>The SGAP or IGAP flap uses skin and adipose tissue from the buttocks to recreate the breast.  Similar to the DIEP flap, no muscle is taken because the tissue receives its blood flow from small blood vessels that pierce the muscle (perforators).  The flap is harvested as a free flap and can be designed by the surgeon to receive blood flow from either the superior, or inferior gluteal artery perforators.  Like the TUG flap, this flap is ideal for women who do not have sufficient abdominal tissue for transfer, or for women who prefer no scar along their lower abdomen.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>IGAP_01_Flap design &amp; skin markings_01</string>
+							<key>title</key>
+							<string>Skin Markings</string>
+							<key>fullsize</key>
+							<string>01-autologous-igap</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-igap</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_IGAP_02_Flap elevation_02</string>
+							<key>title</key>
+							<string>Flap Elevation</string>
+							<key>fullsize</key>
+							<string>02-autologous-igap</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-igap</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>IGAP_03_Donor site scar_03</string>
+							<key>title</key>
+							<string>Donor Site Scar</string>
+							<key>fullsize</key>
+							<string>03-autologous-igap</string>
+							<key>thumbnail</key>
+							<string>03-tmb-autologous-igap</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>ALT</string>
+					<key>details</key>
+					<string>The ALT flap uses skin and adipose tissue from the front (anterior) and outside (lateral) portion of the thigh to create the breast.  This flap is harvested as a free flap based on the descending branch of the lateral circumflex femoral artery.  Though not used frequently for breast reconstruction in the United States, it is frequently used for head and neck reconstruction following cancer, and lower extremity reconstruction following trauma.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Anterolateral thigh flap_Flap design with skin markings_01</string>
+							<key>title</key>
+							<string>Flap Design with Skin Markings</string>
+							<key>fullsize</key>
+							<string>01-autologous-alt</string>
+							<key>thumbnail</key>
+							<string>01-tmb-autologous-alt</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Anterolateral thigh flap_Flap elevation_02</string>
+							<key>title</key>
+							<string>Flap Elevation</string>
+							<key>fullsize</key>
+							<string>02-autologous-alt</string>
+							<key>thumbnail</key>
+							<string>02-tmb-autologous-alt</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Anterolateral thigh flap_Flap inset &amp; donor site scar_03</string>
+							<key>title</key>
+							<string>Flap Inset &amp; Donor Site Scar</string>
+							<key>fullsize</key>
+							<string>03-autologous-alt</string>
+							<key>thumbnail</key>
+							<string>03-tmb-autologous-alt</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>gallery</string>
+			<key>title</key>
+			<string>Nipple Reconstruction</string>
+			<key>details</key>
+			<string>Nipple reconstruction is the last step of breast reconstruction. It occurs when the patient is satisfied with the shape, size and symmetry of her breasts. The nipple is created from the mastectomy skin or the skin flap. Local skin flaps are elevated and folded to create the cylindrical shape of the nipple. Once the reconstruction heals, the areola and nipple are tattooed to give the nipple areola complex a natural pigment.</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>original title</key>
+					<string>Nipple_Reconstruction01</string>
+					<key>title</key>
+					<string>Nipple Reconstruction</string>
+					<key>fullsize</key>
+					<string>01-nipplereconstruction</string>
+					<key>thumbnail</key>
+					<string>01-tmb-nipplereconstruction</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Nipple_Reconstruction02</string>
+					<key>title</key>
+					<string>Nipple Reconstruction</string>
+					<key>fullsize</key>
+					<string>02-nipplereconstruction</string>
+					<key>thumbnail</key>
+					<string>02-tmb-nipplereconstruction</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Nipple_Reconstruction03</string>
+					<key>title</key>
+					<string>Nipple Reconstruction</string>
+					<key>fullsize</key>
+					<string>03-nipplereconstruction</string>
+					<key>thumbnail</key>
+					<string>03-tmb-nipplereconstruction</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Nipple_Reconstruction04</string>
+					<key>title</key>
+					<string>Nipple Reconstruction</string>
+					<key>fullsize</key>
+					<string>04-nipplereconstruction</string>
+					<key>thumbnail</key>
+					<string>04-tmb-nipplereconstruction</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Nipple_Reconstruction05</string>
+					<key>title</key>
+					<string>Nipple Reconstruction</string>
+					<key>fullsize</key>
+					<string>05-nipplereconstruction</string>
+					<key>thumbnail</key>
+					<string>05-tmb-nipplereconstruction</string>
+				</dict>
+				<dict>
+					<key>original title</key>
+					<string>Nipple_Reconstruction06</string>
+					<key>title</key>
+					<string>Nipple Reconstruction</string>
+					<key>fullsize</key>
+					<string>06-nipplereconstruction</string>
+					<key>thumbnail</key>
+					<string>06-tmb-nipplereconstruction</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>menu</string>
+			<key>title</key>
+			<string>Adjunct Procedures</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Adjunct Procedures</string>
+					<key>data</key>
+					<string>overview_adjunct.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Breast Reduction</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>fullsize</key>
+							<string>adjunct_reduction.html</string>
+							<key>thumbnail</key>
+							<string>document_thumbnail_icon.png</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Breast_Wise pattern reduction</string>
+							<key>title</key>
+							<string>Wise Pattern</string>
+							<key>fullsize</key>
+							<string>03-breastreduction</string>
+							<key>thumbnail</key>
+							<string>03-tmb-breastreduction</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Breast_Vertical reduction</string>
+							<key>title</key>
+							<string>Vertical Pattern</string>
+							<key>fullsize</key>
+							<string>04-breastreduction</string>
+							<key>thumbnail</key>
+							<string>04-tmb-breastreduction</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Mastopexy</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>fullsize</key>
+							<string>adjunct_mastopexy.html</string>
+							<key>thumbnail</key>
+							<string>document_thumbnail_icon.png</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastopexy4_Wise pattern mastopexy</string>
+							<key>title</key>
+							<string>Wise Pattern Mastopexy</string>
+							<key>fullsize</key>
+							<string>01-mastopexy</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastopexy</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastopexy3_Vertical Mastopexy</string>
+							<key>title</key>
+							<string>Vertical Mastopexy</string>
+							<key>fullsize</key>
+							<string>02-mastopexy</string>
+							<key>thumbnail</key>
+							<string>02-tmb-mastopexy</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastopexy2_Circumareolar Mastopexy</string>
+							<key>title</key>
+							<string>Cresenteric Mastopexy</string>
+							<key>fullsize</key>
+							<string>03-mastopexy</string>
+							<key>thumbnail</key>
+							<string>03-tmb-mastopexy</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastopexy1_Cresenteric Mastopexy</string>
+							<key>title</key>
+							<string>Circumareolar Mastopexy</string>
+							<key>fullsize</key>
+							<string>04-mastopexy</string>
+							<key>thumbnail</key>
+							<string>04-tmb-mastopexy</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Augmentation</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>fullsize</key>
+							<string>adjunct_augmentation.html</string>
+							<key>thumbnail</key>
+							<string>document_thumbnail_icon.png</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Augmentation-Subglandular augmentation with implant</string>
+							<key>title</key>
+							<string>Subglandular Augmentation with Implant</string>
+							<key>fullsize</key>
+							<string>01-augmentation</string>
+							<key>thumbnail</key>
+							<string>01-tmb-augmentation</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Augmentation-Submuscular augmentation with implant</string>
+							<key>title</key>
+							<string>Submuscular Augmentation with Implant</string>
+							<key>fullsize</key>
+							<string>02-augmentation</string>
+							<key>thumbnail</key>
+							<string>02-tmb-augmentation</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Breast_AnatomyFullBodyCut_Augmentation Incisions</string>
+							<key>title</key>
+							<string>Augmentation Incisions</string>
+							<key>fullsize</key>
+							<string>03-augmentation</string>
+							<key>thumbnail</key>
+							<string>03-tmb-augmentation</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Fat Transfer</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>document</string>
+							<key>fullsize</key>
+							<string>adjunct_fat_transfer.html</string>
+							<key>thumbnail</key>
+							<string>document_thumbnail_icon.png</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Fat_transfer</string>
+							<key>title</key>
+							<string>Fat Transfer</string>
+							<key>fullsize</key>
+							<string>02-fattransfer</string>
+							<key>thumbnail</key>
+							<string>02-tmb-fattransfer</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Label_Fat_transfer</string>
+							<key>title</key>
+							<string>Fat Transfer</string>
+							<key>fullsize</key>
+							<string>03-fattransfer</string>
+							<key>thumbnail</key>
+							<string>03-tmb-fattransfer</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

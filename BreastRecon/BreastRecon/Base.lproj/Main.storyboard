@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="TUH-y0-8Xn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Philosopher-Regular.ttf">
+            <string>Philosopher</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Gallery Container View Controller-->
+        <scene sceneID="5LI-oS-69m">
+            <objects>
+                <viewController storyboardIdentifier="GalleryDetailViewController" id="vtu-I7-3nf" customClass="GalleryContainerViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hl4-V8-GCF"/>
+                        <viewControllerLayoutGuide type="bottom" id="08s-zu-dpq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oyo-BM-lUX">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGd-ke-miy">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="573"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uBz-05-H4V">
+                                        <rect key="frame" x="0.0" y="0.0" width="703" height="573"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abV-RY-52m">
+                                                <rect key="frame" x="15" y="45" width="673" height="506"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ML9-x7-thv">
+                                                <rect key="frame" x="630" y="490" width="44" height="49"/>
+                                                <state key="normal" title="Button" image="icon-text-reveal"/>
+                                                <connections>
+                                                    <action selector="showTextOverlayButtonPressed:" destination="vtu-I7-3nf" eventType="touchUpInside" id="0HJ-xu-lZ9"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAO-nO-vky">
+                                                <rect key="frame" x="15" y="0.0" width="673" height="45"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.68235294120000001" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="met-R8-Q2K">
+                                        <rect key="frame" x="0.0" y="0.0" width="703" height="573"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWP-Jy-Rjc" userLabel="white_background">
+                                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ribbon_xl" translatesAutoresizingMaskIntoConstraints="NO" id="Xgk-ab-1ag">
+                                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                            </imageView>
+                                            <webView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ngs-31-6g4" customClass="BorderedWebView" customModule="BreastRecon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="703" height="573"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </webView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="krJ-wU-C1V">
+                                <rect key="frame" x="0.0" y="573" width="1024" height="195"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="195" id="gBh-Pf-BDs"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KWO-kp-3fk">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="QgF-18-hSz" customClass="ThumbnailCollectionViewCell" customModule="BreastRecon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OGd-ke-miy" secondAttribute="trailing" id="NLZ-xs-aad"/>
+                            <constraint firstItem="krJ-wU-C1V" firstAttribute="leading" secondItem="oyo-BM-lUX" secondAttribute="leading" id="Wjc-ls-leQ"/>
+                            <constraint firstAttribute="bottom" secondItem="krJ-wU-C1V" secondAttribute="bottom" id="g2f-Jq-Yfs"/>
+                            <constraint firstItem="krJ-wU-C1V" firstAttribute="top" secondItem="OGd-ke-miy" secondAttribute="bottom" id="p3i-to-Zis"/>
+                            <constraint firstAttribute="trailing" secondItem="krJ-wU-C1V" secondAttribute="trailing" id="prH-ua-cLD"/>
+                            <constraint firstItem="OGd-ke-miy" firstAttribute="top" secondItem="oyo-BM-lUX" secondAttribute="top" id="sLW-cx-kF4"/>
+                            <constraint firstItem="OGd-ke-miy" firstAttribute="leading" secondItem="oyo-BM-lUX" secondAttribute="leading" id="w3Y-0e-8zR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2kY-Le-NVL"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bigDocument" destination="ngs-31-6g4" id="VVF-WZ-63Q"/>
+                        <outlet property="bigDocumentView" destination="met-R8-Q2K" id="v8T-gp-zxK"/>
+                        <outlet property="bigPicture" destination="abV-RY-52m" id="6IX-Th-8f3"/>
+                        <outlet property="bigPictureBackground" destination="uBz-05-H4V" id="E7Z-LM-wKR"/>
+                        <outlet property="bigPictureLabel" destination="TAO-nO-vky" id="SIH-PO-34J"/>
+                        <outlet property="bigView" destination="OGd-ke-miy" id="SqM-zd-acc"/>
+                        <outlet property="showTextOverlayButton" destination="ML9-x7-thv" id="4cT-oD-Kze"/>
+                        <outlet property="thumbnailCollection" destination="krJ-wU-C1V" id="u0D-yp-ps8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vvx-pE-v39" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2644" y="-3507"/>
+        </scene>
+        <!--Documentation Detail View Controller-->
+        <scene sceneID="Ca7-JI-1V0">
+            <objects>
+                <viewController storyboardIdentifier="DocumentationDetailView" id="El2-KY-KFE" customClass="DocumentationDetailViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MCr-IZ-ZV0"/>
+                        <viewControllerLayoutGuide type="bottom" id="1sf-bT-hL9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ftx-ud-TEG">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ribbon_xl" translatesAutoresizingMaskIntoConstraints="NO" id="9kw-Gg-N5A">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kJ8-pB-Zcs"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u5L-Ag-rjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="-2803"/>
+        </scene>
+        <!--Gallery Thumbnail View Controller-->
+        <scene sceneID="kcI-Rt-kPH">
+            <objects>
+                <viewController storyboardIdentifier="GalleryThumbnailViewController" id="mV4-ac-ZIW" customClass="GalleryThumbnailViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xQJ-e5-oTN"/>
+                        <viewControllerLayoutGuide type="bottom" id="pff-66-uvi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ee2-HT-Puh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lLO-Nf-crX">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eXA-Pm-VSs">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="Vxc-9F-ruY" customClass="ThumbnailCollectionViewCell" customModule="BreastRecon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pff-66-uvi" firstAttribute="top" secondItem="lLO-Nf-crX" secondAttribute="bottom" id="8gN-Am-gQs"/>
+                            <constraint firstAttribute="trailing" secondItem="lLO-Nf-crX" secondAttribute="trailing" id="AoV-cO-IXC"/>
+                            <constraint firstItem="lLO-Nf-crX" firstAttribute="leading" secondItem="Ee2-HT-Puh" secondAttribute="leading" id="aI5-8x-fWJ"/>
+                            <constraint firstItem="lLO-Nf-crX" firstAttribute="top" secondItem="Ee2-HT-Puh" secondAttribute="top" id="sh3-zW-nks"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="lLO-Nf-crX" id="dia-X0-7ov"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VSs-pk-qVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5008" y="-4429"/>
+        </scene>
+        <!--Gallery Full Screen View Controller-->
+        <scene sceneID="eF3-XH-k6Z">
+            <objects>
+                <viewController storyboardIdentifier="GalleryFullSizeView" id="NUp-os-rSK" customClass="GalleryFullScreenViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wud-Qi-OGe"/>
+                        <viewControllerLayoutGuide type="bottom" id="D08-Ev-TAv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n7S-Zc-AC6">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yey-B3-tJp">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFC-7N-ego">
+                                <rect key="frame" x="20" y="20" width="99" height="60"/>
+                                <state key="normal" image="back_button_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="back_button_onpress"/>
+                                <connections>
+                                    <action selector="backButtonTapped:forEvent:" destination="NUp-os-rSK" eventType="touchUpInside" id="2Pd-nL-dr5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="scrollView" destination="Yey-B3-tJp" id="DYN-Cq-NSE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAJ-AA-ciL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6128" y="-4429"/>
+        </scene>
+        <!--Gallery-->
+        <scene sceneID="PCX-Ry-4C5">
+            <objects>
+                <tableViewController storyboardIdentifier="MasterView" useStoryboardIdentifierAsRestorationIdentifier="YES" clearsSelectionOnViewWillAppear="NO" id="JsN-Ln-Fj9" customClass="GalleryMasterViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="zuP-8d-kVf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="fOv-FF-8GB" customClass="GalleryMenuItemTableCell" customModule="BreastRecon" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fOv-FF-8GB" id="yrq-bL-qmv">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXb-jx-vpJ">
+                                            <rect key="frame" x="54" y="8" width="992" height="44"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.23137254901960785" green="0.23137254901960785" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-single-document" translatesAutoresizingMaskIntoConstraints="NO" id="04l-BI-lbC">
+                                            <rect key="frame" x="8" y="16" width="39" height="28"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cfS-g3-DIa">
+                                            <rect key="frame" x="966" y="9" width="42" height="42"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="42" id="Gfo-ps-7hb"/>
+                                                <constraint firstAttribute="width" constant="42" id="SeO-YR-scb"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.53725490200000003" green="0.81960784310000001" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="gXb-jx-vpJ" firstAttribute="top" secondItem="yrq-bL-qmv" secondAttribute="topMargin" id="F0c-Pg-sy2"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="cfS-g3-DIa" secondAttribute="bottom" constant="1" id="MIA-aA-mrt"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="cfS-g3-DIa" secondAttribute="trailing" constant="8" id="WEr-7W-lDw"/>
+                                        <constraint firstItem="gXb-jx-vpJ" firstAttribute="centerY" secondItem="yrq-bL-qmv" secondAttribute="centerY" id="Wt3-ch-Eyk"/>
+                                        <constraint firstItem="cfS-g3-DIa" firstAttribute="top" secondItem="yrq-bL-qmv" secondAttribute="topMargin" constant="1" id="kMK-B2-bJn"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="gXb-jx-vpJ" secondAttribute="trailing" constant="-30" id="tI2-K6-CxW"/>
+                                        <constraint firstItem="gXb-jx-vpJ" firstAttribute="leading" secondItem="yrq-bL-qmv" secondAttribute="leading" constant="54" id="vES-Sf-jGU"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="itemLabel" destination="gXb-jx-vpJ" id="jCS-Mt-009"/>
+                                    <outlet property="labelIndent" destination="vES-Sf-jGU" id="6jA-Dy-niU"/>
+                                    <outlet property="leftIcon" destination="04l-BI-lbC" id="1ee-6C-nsv"/>
+                                    <outlet property="rightIcon" destination="cfS-g3-DIa" id="hVB-gs-sod"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="JsN-Ln-Fj9" id="pQ8-4k-zh3"/>
+                            <outlet property="delegate" destination="JsN-Ln-Fj9" id="eIG-Uy-FZM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Gallery" id="bso-E6-BgC"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZk-J8-Xsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3854" y="-4429"/>
+        </scene>
+        <!--Gallery Full Screen View Controller-->
+        <scene sceneID="aa9-an-9w1">
+            <objects>
+                <viewController restorationIdentifier=" " storyboardIdentifier="FullScreenView" id="0Gp-R9-HfW" customClass="GalleryFullScreenViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hFe-yp-nFj"/>
+                        <viewControllerLayoutGuide type="bottom" id="rlD-V5-MhX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vqw-hw-OvB">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="phy-en-72i">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zll-wA-00d">
+                                <rect key="frame" x="16" y="28" width="99" height="60"/>
+                                <state key="normal" image="back_button_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="back_button_onpress"/>
+                                <connections>
+                                    <action selector="backButtonTapped:forEvent:" destination="0Gp-R9-HfW" eventType="touchUpInside" id="cGk-nI-IBP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="phy-en-72i" secondAttribute="trailing" id="KEU-2p-rla"/>
+                            <constraint firstItem="rlD-V5-MhX" firstAttribute="top" secondItem="phy-en-72i" secondAttribute="bottom" id="fog-e9-f8N"/>
+                            <constraint firstItem="phy-en-72i" firstAttribute="top" secondItem="Vqw-hw-OvB" secondAttribute="top" id="jrP-Kp-bTv"/>
+                            <constraint firstItem="phy-en-72i" firstAttribute="leading" secondItem="Vqw-hw-OvB" secondAttribute="leading" id="zaZ-LI-LJI"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="fullScreenView" destination="phy-en-72i" id="zSr-WK-0sX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="woM-TD-77Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3865" y="-3507"/>
+        </scene>
+        <!--Web Browser View Controller-->
+        <scene sceneID="AOa-R2-fgV">
+            <objects>
+                <viewController storyboardIdentifier="webBrowser" id="kjE-nM-bWG" customClass="WebBrowserViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2yJ-eX-YVU"/>
+                        <viewControllerLayoutGuide type="bottom" id="bne-dI-QYb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UGJ-CV-abG">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i0f-2V-q9l">
+                                <rect key="frame" x="0.0" y="724" width="1024" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="mdb-Ph-Uig"/>
+                                    <barButtonItem title="Back" id="ogI-bm-L00">
+                                        <connections>
+                                            <action selector="backButtonTapped:" destination="kjE-nM-bWG" id="VZh-Sy-HvN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4yH-ds-H2c"/>
+                                    <barButtonItem systemItem="rewind" id="phy-iK-MDf">
+                                        <connections>
+                                            <action selector="goBack" destination="TkO-aT-W63" id="Hwt-xu-7NN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ZhS-wi-pWQ"/>
+                                    <barButtonItem systemItem="stop" id="4XO-mc-Ub7">
+                                        <connections>
+                                            <action selector="stopLoading" destination="TkO-aT-W63" id="SYy-w4-F6a"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="AgV-cT-H2C"/>
+                                    <barButtonItem systemItem="refresh" id="hC4-AV-t6U">
+                                        <connections>
+                                            <action selector="reload" destination="TkO-aT-W63" id="LUE-To-A5B"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="mDU-5y-yvY"/>
+                                    <barButtonItem systemItem="fastForward" id="Tiq-xa-aEH">
+                                        <connections>
+                                            <action selector="goForward" destination="TkO-aT-W63" id="vhs-4F-9L4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Fqe-Rp-3UZ"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TkO-aT-W63">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="723"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="SH9-Bd-vXP"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="q0H-I9-hKK"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="webView" destination="TkO-aT-W63" id="4fU-Ti-aJJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hka-Fd-YI7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5103" y="-3507"/>
+        </scene>
+        <!--Gallery Nav Controller-->
+        <scene sceneID="bSF-4L-c2c">
+            <objects>
+                <navigationController id="JKn-GJ-fv0" customClass="GalleryNavController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GcB-RW-xRn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JsN-Ln-Fj9" kind="relationship" relationship="rootViewController" id="sRf-5S-M6d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0lY-ot-jee" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2644" y="-4429"/>
+        </scene>
+        <!--Gallery Split View Controller-->
+        <scene sceneID="X8k-CA-vX0">
+            <objects>
+                <splitViewController storyboardIdentifier="GalleryViewController" id="IGP-dW-cIw" customClass="GallerySplitViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <segue destination="JKn-GJ-fv0" kind="relationship" relationship="masterViewController" id="54M-5r-dzG"/>
+                        <segue destination="El2-KY-KFE" kind="relationship" relationship="detailViewController" id="d19-sR-NCf"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="62E-g8-8RY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="-4020"/>
+        </scene>
+        <!--Start Screen View Controller-->
+        <scene sceneID="SiQ-vt-lY0">
+            <objects>
+                <viewController storyboardIdentifier="StartScreenViewController" extendedLayoutIncludesOpaqueBars="YES" id="Hlk-bo-lH4" customClass="StartScreenViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qMm-4S-CEk"/>
+                        <viewControllerLayoutGuide type="bottom" id="wwO-yG-TTJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gso-Dc-9sB">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start_screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="ucn-Bg-uF1">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYl-dE-Fb9">
+                                <rect key="frame" x="80" y="406" width="472" height="212"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="472" id="LIz-ma-6Pr"/>
+                                    <constraint firstAttribute="height" constant="212" id="y9O-lU-x6Q"/>
+                                </constraints>
+                                <state key="normal" image="start_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="start_button_onpress"/>
+                                <connections>
+                                    <action selector="startButtonTapped:forEvent:" destination="Hlk-bo-lH4" eventType="touchUpInside" id="UbP-5X-dzL"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="doctor" translatesAutoresizingMaskIntoConstraints="NO" id="HhM-Zr-knb">
+                                <rect key="frame" x="522" y="188" width="535" height="618"/>
+                            </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kqb-aX-2fx">
+                                <rect key="frame" x="0.0" y="651" width="1024" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJG-fm-3zz">
+                                        <rect key="frame" x="45" y="14" width="935" height="85"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HR1-7O-T4i">
+                                <rect key="frame" x="16" y="20" width="930" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stanford_logo" translatesAutoresizingMaskIntoConstraints="NO" id="kZs-MK-d9P">
+                                <rect key="frame" x="825" y="24" width="183" height="75"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Je8-zV-P3B">
+                                <rect key="frame" x="741" y="100" width="472" height="21"/>
+                                <string key="text" base64-UTF8="YES">
+A8KpIERpdmlzaW9uIG9mIFBsYXN0aWMvUmVjb25zdHJ1Y3RpdmUgU3VyZ2VyeQ
+</string>
+                                <fontDescription key="fontDescription" name="Philosopher" family="Philosopher" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ucn-Bg-uF1" firstAttribute="leading" secondItem="gso-Dc-9sB" secondAttribute="leading" id="2jM-mD-ROu"/>
+                            <constraint firstItem="ucn-Bg-uF1" firstAttribute="top" secondItem="gso-Dc-9sB" secondAttribute="top" id="4mP-TN-Ac0"/>
+                            <constraint firstItem="sYl-dE-Fb9" firstAttribute="leading" secondItem="gso-Dc-9sB" secondAttribute="leadingMargin" constant="60" id="Mqb-eQ-diZ"/>
+                            <constraint firstAttribute="centerX" secondItem="ucn-Bg-uF1" secondAttribute="centerX" id="kpo-ew-gIx"/>
+                            <constraint firstAttribute="trailing" secondItem="ucn-Bg-uF1" secondAttribute="trailing" id="sEE-nX-a6E"/>
+                            <constraint firstItem="wwO-yG-TTJ" firstAttribute="top" secondItem="sYl-dE-Fb9" secondAttribute="bottom" constant="150" id="zx0-JO-uBB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LP6-PK-1AP"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="dialogLabel" destination="fJG-fm-3zz" id="LkO-qb-ii8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Upo-zQ-KW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2635" y="-1463"/>
+        </scene>
+        <!--Category Screen View Controller-->
+        <scene sceneID="B1J-eR-hpb">
+            <objects>
+                <viewController storyboardIdentifier="CategoryScreenViewController" id="3gS-Pi-Seo" customClass="CategoryScreenViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkf-mu-Yd9"/>
+                        <viewControllerLayoutGuide type="bottom" id="hHs-BK-3gL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DKa-kH-lB3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selection_screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="Udc-O2-KA9">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r70-us-SAj">
+                                <rect key="frame" x="0.0" y="0.0" width="633" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doctor-flipped" translatesAutoresizingMaskIntoConstraints="NO" id="GgG-YI-3LC">
+                                        <rect key="frame" x="-80" y="65" width="722" height="705"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="722" id="Br4-gC-7Js"/>
+                                            <constraint firstAttribute="height" constant="705" id="hCG-GB-yOt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mOa-wM-tPF">
+                                <rect key="frame" x="0.0" y="651" width="1024" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKt-Wn-zXd">
+                                        <rect key="frame" x="45" y="34" width="935" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQC-DF-MNf">
+                                <rect key="frame" x="20" y="20" width="99" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="2ya-Y5-eLN"/>
+                                    <constraint firstAttribute="width" constant="99" id="6AR-Ek-5FK"/>
+                                </constraints>
+                                <state key="normal" image="back_button_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="back_button_onpress"/>
+                                <connections>
+                                    <action selector="backButtonTapped:forEvent:" destination="3gS-Pi-Seo" eventType="touchUpInside" id="5Wq-pC-WKk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ9-de-Gfw">
+                                <rect key="frame" x="607" y="119" width="387" height="78"/>
+                                <state key="normal" image="before_surgery_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="before_surgery_button_onpress"/>
+                                <connections>
+                                    <action selector="beforeSurgeryButtonTapped:forEvent:" destination="3gS-Pi-Seo" eventType="touchUpInside" id="a7J-iK-Qae"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qye-DJ-ddS">
+                                <rect key="frame" x="607" y="436" width="387" height="78"/>
+                                <state key="normal" image="after_surgery_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="after_surgery_button_onpress"/>
+                                <connections>
+                                    <action selector="afterSurgeryButtonTapped:forEvent:" destination="3gS-Pi-Seo" eventType="touchUpInside" id="k4b-kn-fc4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTh-KL-Qpz">
+                                <rect key="frame" x="607" y="316" width="387" height="116"/>
+                                <state key="normal" image="reconstructive_surgery_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="reconstructive_surgery_button_onpress"/>
+                                <connections>
+                                    <action selector="reconstructionButtonTapped:forEvent:" destination="3gS-Pi-Seo" eventType="touchUpInside" id="S25-bV-gLf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzB-F1-fKh">
+                                <rect key="frame" x="607" y="199" width="387" height="116"/>
+                                <state key="normal" image="oncoplastic_surgery_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="oncoplastic_surgery_button_onpress"/>
+                                <connections>
+                                    <action selector="surgeryButtonTapped:forEvent:" destination="3gS-Pi-Seo" eventType="touchUpInside" id="An1-t2-BdB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvo-za-66D">
+                                <rect key="frame" x="607" y="517" width="387" height="78"/>
+                                <state key="normal" image="resources_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="resources_button_onpress"/>
+                                <connections>
+                                    <action selector="resourcesButtonTapped:forEvent:" destination="3gS-Pi-Seo" eventType="touchUpInside" id="18v-H7-yfn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.68235294117647061" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JQC-DF-MNf" firstAttribute="leading" secondItem="DKa-kH-lB3" secondAttribute="leadingMargin" id="224-Gd-Fbz"/>
+                            <constraint firstItem="Udc-O2-KA9" firstAttribute="leading" secondItem="DKa-kH-lB3" secondAttribute="leading" id="9EU-Nl-7Ts"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="GgG-YI-3LC" secondAttribute="bottom" constant="-2" id="QGh-Lx-9uc"/>
+                            <constraint firstItem="GgG-YI-3LC" firstAttribute="leading" secondItem="DKa-kH-lB3" secondAttribute="leadingMargin" constant="-100" id="VMr-g8-b0D"/>
+                            <constraint firstItem="Udc-O2-KA9" firstAttribute="top" secondItem="qkf-mu-Yd9" secondAttribute="top" id="pya-AD-DXQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Udc-O2-KA9" secondAttribute="trailing" id="rzc-Io-ISN"/>
+                            <constraint firstItem="JQC-DF-MNf" firstAttribute="top" secondItem="qkf-mu-Yd9" secondAttribute="bottom" id="vii-vu-BuC"/>
+                            <constraint firstItem="hHs-BK-3gL" firstAttribute="top" secondItem="Udc-O2-KA9" secondAttribute="bottom" id="yiI-X9-Ppr"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="dialogLabel" destination="gKt-Wn-zXd" id="w1n-UG-xIm"/>
+                        <outlet property="doctorView" destination="r70-us-SAj" id="K9p-tF-Lfg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8T7-fW-fWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3754" y="-1463"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tgp-3X-CJf">
+            <objects>
+                <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="TUH-y0-8Xn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Thb-Ay-ctD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Hlk-bo-lH4" kind="relationship" relationship="rootViewController" id="tbe-sg-aIh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vvw-S7-Ceq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1284" y="-1463"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="TRX-UY-wFO">
+            <objects>
+                <viewController storyboardIdentifier="SplashScreen" id="mbJ-wk-Jky" customClass="SplashViewController" customModule="BreastRecon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6eP-LC-C0W"/>
+                        <viewControllerLayoutGuide type="bottom" id="cxV-r0-uPO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KTI-0r-Aag">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash_screen" translatesAutoresizingMaskIntoConstraints="NO" id="6vX-U9-eTo">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="6vX-U9-eTo" id="4CI-yi-tE8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sC0-SX-X1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1284" y="-623"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="after_surgery_button" width="387" height="78"/>
+        <image name="after_surgery_button_onpress" width="387" height="78"/>
+        <image name="back_button_normal" width="108" height="54"/>
+        <image name="back_button_onpress" width="108" height="54"/>
+        <image name="before_surgery_button" width="387" height="78"/>
+        <image name="before_surgery_button_onpress" width="387" height="78"/>
+        <image name="doctor" width="484" height="492"/>
+        <image name="doctor-flipped" width="484" height="492"/>
+        <image name="icon-single-document" width="30" height="41"/>
+        <image name="icon-text-reveal" width="44" height="49"/>
+        <image name="oncoplastic_surgery_button" width="387" height="116"/>
+        <image name="oncoplastic_surgery_button_onpress" width="387" height="116"/>
+        <image name="reconstructive_surgery_button" width="387" height="116"/>
+        <image name="reconstructive_surgery_button_onpress" width="387" height="116"/>
+        <image name="resources_button" width="387" height="78"/>
+        <image name="resources_button_onpress" width="387" height="78"/>
+        <image name="ribbon_xl" width="300" height="533"/>
+        <image name="selection_screen_background" width="1024" height="768"/>
+        <image name="splash_screen" width="1024" height="768"/>
+        <image name="stanford_logo" width="223" height="93"/>
+        <image name="start_button" width="386" height="172"/>
+        <image name="start_button_onpress" width="386" height="172"/>
+        <image name="start_screen_background" width="1024" height="768"/>
+        <image name="title_logo" width="930" height="320"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

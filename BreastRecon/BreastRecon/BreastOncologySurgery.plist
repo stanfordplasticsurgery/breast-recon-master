@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>type</key>
+	<string>menu</string>
+	<key>title</key>
+	<string>Breast Oncology Surgery</string>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>menu</string>
+			<key>title</key>
+			<string>Anatomy</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Anatomy</string>
+					<key>data</key>
+					<string>overview_anatomy.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Upper Border</string>
+					<key>details</key>
+					<string>The upper border of the breast tissue ends superiorly at or slightly above the level of the axilla.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original_title</key>
+							<string>Label_Breast_Anatomy_Landmarks</string>
+							<key>title</key>
+							<string></string>
+							<key>fullsize</key>
+							<string>01-anatomy-upper</string>
+							<key>thumbnail</key>
+							<string>01-tmb-anatomy-upper</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Medial Border</string>
+					<key>details</key>
+					<string>The medial border of the breast ends at the lateral border of the sternum.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original_title</key>
+							<string>Label_Breast_Anatomy_Landmarks</string>
+							<key>title</key>
+							<string></string>
+							<key>fullsize</key>
+							<string>01-anatomy-medial</string>
+							<key>thumbnail</key>
+							<string>01-tmb-anatomy-medial</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Lateral Border</string>
+					<key>details</key>
+					<string>The lateral border of the breast ends at the anterior axillary line.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original_title</key>
+							<string>Label_Breast_Anatomy_Landmarks</string>
+							<key>title</key>
+							<string></string>
+							<key>fullsize</key>
+							<string>01-anatomy-lateral</string>
+							<key>thumbnail</key>
+							<string>01-tmb-anatomy-lateral</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Inframammary Fold</string>
+					<key>details</key>
+					<string>The inframammary fold marks the inferior border of the breast.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original_title</key>
+							<string>Label_Breast_Anatomy_Landmarks</string>
+							<key>title</key>
+							<string></string>
+							<key>fullsize</key>
+							<string>01-anatomy-inframammary</string>
+							<key>thumbnail</key>
+							<string>01-tmb-anatomy-inframammary</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Nipple</string>
+					<key>details</key>
+					<string>The nipple is the most projected part of the breast. Its location in relation to the inframammary fold determines the degree of breast ptosis.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original_title</key>
+							<string>Label_Breast_Anatomy_Landmarks</string>
+							<key>title</key>
+							<string></string>
+							<key>fullsize</key>
+							<string>01-anatomy-nipple</string>
+							<key>thumbnail</key>
+							<string>01-tmb-anatomy-nipple</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Pectoralis Muscle</string>
+					<key>details</key>
+					<string>The pectoralis muscle is commonly used in tissue expander-implant based breast reconstruction. It is normally attached to the clavicle, sternum, anterior chest wall and the humerus. During breast reconstruction, it is detached from the anterior chest wall and lower part of the sternum to allow placement of a tissue expander or an implant underneath. </string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original_title</key>
+							<string>Label_Breast_Anatomy_Landmarks</string>
+							<key>title</key>
+							<string></string>
+							<key>fullsize</key>
+							<string>02-anatomy-pectoralis</string>
+							<key>thumbnail</key>
+							<string>01-tmb-anatomy-pectoralis</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>menu</string>
+			<key>title</key>
+			<string>Lumpectomy</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Lumpectomy</string>
+					<key>data</key>
+					<string>overview_lumpectomy.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Superior Lumpectomy\nReconstructions</string>
+					<key>details</key>
+					<string>Small or moderate size lumpectomy located superiorly may be closed primarily or reconstructed using fat transfer.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>title</key>
+							<string>Superior Lumpectomy</string>
+							<key>fullsize</key>
+							<string>01-lumpectomy-superiordefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>01-tmb-lumpectomy-superiordefectreconstruction</string>
+						</dict>
+						<dict>
+							<key>title</key>
+							<string>Superior Lumpectomy</string>
+							<key>fullsize</key>
+							<string>02-lumpectomy-superiordefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>02-tmb-lumpectomy-superiordefectreconstruction</string>
+						</dict>
+						<dict>
+							<key>title</key>
+							<string>Superior Lumpectomy</string>
+							<key>fullsize</key>
+							<string>03-lumpectomy-superiordefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>03-tmb-lumpectomy-superiordefectreconstruction</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>menu</string>
+					<key>title</key>
+					<string>Medial Reconstructions</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Medial Reconstructions</string>
+							<key>details</key>
+							<string>Small or moderate lumpectomy medially may be closed primarily or reconstructed using fat transfer or local tissue rearrangement.</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>title</key>
+									<string>Medial Lumpectomy</string>
+									<key>fullsize</key>
+									<string>02-lumpectomy-medialdefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>02-tmb-lumpectomy-medialdefectreconstruction</string>
+								</dict>
+								<dict>
+									<key>title</key>
+									<string>Medial Lumpectomy</string>
+									<key>fullsize</key>
+									<string>03-lumpectomy-medialdefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>03-tmb-lumpectomy-medialdefectreconstruction</string>
+								</dict>
+								<dict>
+									<key>title</key>
+									<string>Medial Lumpectomy</string>
+									<key>fullsize</key>
+									<string>04-lumpectomy-medialdefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>04-tmb-lumpectomy-medialdefectreconstruction</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Wise Pattern</string>
+							<key>details</key>
+							<string>In patients who are candidates for breast reduction or breast lift (mastopexy), a large medial defect may be removed and the breast reshaped using an anchor-type incision breast reduction/mastopexy approach (Wise pattern).</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>fullsize</key>
+									<string>01-lumpectomy-medialdefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>01-tmb-lumpectomy-medialdefectreconstruction</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>menu</string>
+					<key>title</key>
+					<string>Lateral Reconstructions</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Lateral Reconstructions</string>
+							<key>details</key>
+							<string>Small or moderate lumpectomy laterally may be closed primarily or reconstructed using fat transfer or local tissue rearrangement. Large defects may be corrected with an implant or a local flap.</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>title</key>
+									<string>Lateral Lumpectomy</string>
+									<key>fullsize</key>
+									<string>02-lumpectomy-lateraldefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>02-tmb-lumpectomy-lateraldefectreconstruction</string>
+								</dict>
+								<dict>
+									<key>title</key>
+									<string>Lateral Lumpectomy</string>
+									<key>fullsize</key>
+									<string>03-lumpectomy-lateraldefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>03-tmb-lumpectomy-lateraldefectreconstruction</string>
+								</dict>
+								<dict>
+									<key>title</key>
+									<string>Lateral Lumpectomy</string>
+									<key>fullsize</key>
+									<string>04-lumpectomy-lateraldefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>04-tmb-lumpectomy-lateraldefectreconstruction</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>type</key>
+							<string>gallery</string>
+							<key>title</key>
+							<string>Wise Pattern</string>
+							<key>details</key>
+							<string>In patients who are candidates for breast reduction or breast lift (mastopexy), a large lateral defect may be removed and the breast reshaped using an anchor-type incision breast reduction/mastopexy approach (Wise pattern).</string>
+							<key>data</key>
+							<array>
+								<dict>
+									<key>fullsize</key>
+									<string>01-lumpectomy-lateraldefectreconstruction</string>
+									<key>thumbnail</key>
+									<string>01-tmb-lumpectomy-lateraldefectreconstruction</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Central Reconstructions</string>
+					<key>details</key>
+					<string>A small or moderate size lumpectomy located centrally may be primarily closed or reconstructed using fat transfer or local tissue rearrangement. Larger defects may be corrected with an implant. Additional fat transfer may be used to enhance breast contour and volume.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>title</key>
+							<string>Central Lumpectomy</string>
+							<key>fullsize</key>
+							<string>01-lumpectomy-centraldefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>01-tmb-lumpectomy-centraldefectreconstruction</string>
+						</dict>
+						<dict>
+							<key>title</key>
+							<string>Central Lumpectomy</string>
+							<key>fullsize</key>
+							<string>02-lumpectomy-centraldefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>02-tmb-lumpectomy-centraldefectreconstruction</string>
+						</dict>
+						<dict>
+							<key>title</key>
+							<string>Central Lumpectomy</string>
+							<key>fullsize</key>
+							<string>03-lumpectomy-centraldefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>03-tmb-lumpectomy-centraldefectreconstruction</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Inferior Reconstructions</string>
+					<key>details</key>
+					<string>Small or moderate lumpectomy inferiorly may be closed primarily or reconstructed using fat transfer or local tissue rearrangement. Large defects may be corrected with an implant. Additional fat transfer may be used to enhance breast contour and volume.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>title</key>
+							<string>Inferior Lumpectomy</string>
+							<key>fullsize</key>
+							<string>01-lumpectomy-inferiordefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>01-tmb-lumpectomy-inferiordefectreconstruction</string>
+						</dict>
+						<dict>
+							<key>title</key>
+							<string>Inferior Lumpectomy</string>
+							<key>fullsize</key>
+							<string>02-lumpectomy-inferiordefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>02-tmb-lumpectomy-inferiordefectreconstruction</string>
+						</dict>
+						<dict>
+							<key>title</key>
+							<string>Inferior Lumpectomy</string>
+							<key>fullsize</key>
+							<string>03-lumpectomy-inferiordefectreconstruction</string>
+							<key>thumbnail</key>
+							<string>03-tmb-lumpectomy-inferiordefectreconstruction</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>menu</string>
+			<key>title</key>
+			<string>Mastectomy</string>
+			<key>data</key>
+			<array>
+				<dict>
+					<key>type</key>
+					<string>document</string>
+					<key>title</key>
+					<string>Mastectomy</string>
+					<key>data</key>
+					<string>overview_mastectomy.html</string>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Traditional simple (total)</string>
+					<key>details</key>
+					<string>In a simple mastectomy, the entire breast is removed, including skin, nipple areolar complex and the underlying breast tissue.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Simple Mastectomy</string>
+							<key>title</key>
+							<string>Simple Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-traditionalsimple</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-traditionalsimple</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Modified radical</string>
+					<key>details</key>
+					<string>A modified radical mastectomy is a simple mastectomy with the additional removal of the axillary lymph nodes and the lining (fascia) over the chest muscles.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Modified radical Mastectomy01</string>
+							<key>title</key>
+							<string>Modified Radical Mastectomy</string>
+							<key>fullsize</key>
+							<string>02-mastectomy-modifiedradical</string>
+							<key>thumbnail</key>
+							<string>02-tmb-mastectomy-modifiedradical</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Modified radical mastectomy02</string>
+							<key>title</key>
+							<string>Modified Radical Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-modifiedradical</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-modifiedradical</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Radical</string>
+					<key>details</key>
+					<string>A radical mastectomy is a modified radical mastectomy in which the chest muscles underneath the breast tissue are also removed.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Radical Mastectomy</string>
+							<key>title</key>
+							<string>Radical Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-radical</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-radical</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Skin-sparing</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Skin sparing mastectomy</string>
+							<key>title</key>
+							<string>Skin Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-skinsparing</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-skinsparing</string>
+							<key>details</key>
+							<string>In a periareolar skin-sparing mastectomy, the nipple areolar complex is removed with the underlying breast tissue, leaving the rest of the skin envelope intact.</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Skin sparing mastectomy-Wise pattern</string>
+							<key>title</key>
+							<string>Skin Sparing Mastectomy - Wise Pattern</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-skinsparingwise</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-skinsparingwise</string>
+							<key>details</key>
+							<string>In patients with ptotic breasts who want a breast reconstruction that is smaller and lifted, the mastectomy can be performed through an anchor-type skin reduction (Wise pattern).</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Areola-sparing</string>
+					<key>details</key>
+					<string>In areola sparing mastectomy, the nipple and the underlying breast tissue are removed. The areola and the entire skin envelope are preserved.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Areola sparing Mastectomy</string>
+							<key>title</key>
+							<string>Areola Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-areolasparing</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-areolasparing</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>type</key>
+					<string>gallery</string>
+					<key>title</key>
+					<string>Nipple-sparing</string>
+					<key>details</key>
+					<string>In the nipple sparing mastectomy, only the breast tissue is removed, sparing the entire skin envelope and nipple areolar complex. The mastectomy incision may be a radial incision, periareolar incision, inframammary incision, or a combination of these incisions.</string>
+					<key>data</key>
+					<array>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Nipple sparing Mastectomy_Radial incision</string>
+							<key>title</key>
+							<string>Nipple Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-nipplesparingradial</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-nipplesparingradial</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Nipple sparing Mastectomy_Periareolar incision</string>
+							<key>title</key>
+							<string>Nipple Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-nipplesparingperiareolar</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-nipplesparingperiareolar</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Nipple sparing Mastectomy_Inframammary incision</string>
+							<key>title</key>
+							<string>Nipple Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-nipplesparinginframammary</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-nipplesparinginframammary</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Nipple sparing Mastectomy_Combination of periareolar and radial incisions</string>
+							<key>title</key>
+							<string>Nipple Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-nipplesparingperiareolarradial</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-nipplesparingperiareolarradial</string>
+						</dict>
+						<dict>
+							<key>original title</key>
+							<string>Mastectomy_Nipple sparing Mastectomy_Combination of radial and inframammry incision</string>
+							<key>title</key>
+							<string>Nipple Sparing Mastectomy</string>
+							<key>fullsize</key>
+							<string>01-mastectomy-nipplesparingradialinframammary</string>
+							<key>thumbnail</key>
+							<string>01-tmb-mastectomy-nipplesparingradialinframammary</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
